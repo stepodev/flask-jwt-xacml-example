@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runall" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+    <runConfiguration name="idprun" type="Flask server" />
+    <runConfiguration name="sp_toaster_run" type="Flask server" />
+    <runConfiguration name="sp_tv_run" type="Flask server" />
+    <runConfiguration name="pdp" type="Bash" />
+    <method />
+  </configuration>
+</component>
