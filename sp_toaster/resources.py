@@ -46,7 +46,7 @@ class ProtectedResource(Resource):
             return {"message": "error!"}, 500
 
         try:
-            image = Image.open(os.getcwd() + '/resources/toaster.JPG')
+            image = Image.open(os.getcwd() + '/sp_toaster/resources/toaster.JPG')
             image.show()
         except Exception as e:
             print(e)

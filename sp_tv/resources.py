@@ -46,7 +46,7 @@ class ProtectedResource(Resource):
             return {"message": "error!"}, 500
 
         try:
-            image = Image.open(os.getcwd() + '/resources/tv.jpeg')
+            image = Image.open(os.getcwd() + '/sp_tv/resources/tv.jpeg')
             image.show()
         except Exception as e:
             print(e)
